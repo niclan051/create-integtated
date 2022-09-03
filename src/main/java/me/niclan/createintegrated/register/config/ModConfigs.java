@@ -1,7 +1,7 @@
-package mod.yourname.yourmodid.register.config;
+package me.niclan.createintegrated.register.config;
 
 import com.simibubi.create.foundation.config.ConfigBase;
-import mod.yourname.yourmodid.BuildConfig;
+import me.niclan.createintegrated.BuildConfig;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -60,7 +60,7 @@ public class ModConfigs {
 
 	public static void register() {
 		SERVER = register(ModServerConfig::new, ModConfig.Type.SERVER);
-		// server is here as an example, as its the most used config type in create, and adding more is pretty much the same
+		// server is here as an example, as it's the most used config type in create, and adding more is pretty much the same
 
 		for (Map.Entry<Config, ModConfig.Type> pair : configs.entrySet())
 			ModLoadingContext.get()

@@ -1,9 +1,9 @@
-package mod.yourname.yourmodid;
+package me.niclan.createintegrated;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.repack.registrate.util.nullness.NonNullSupplier;
-import mod.yourname.yourmodid.register.*;
-import mod.yourname.yourmodid.register.config.ModConfigs;
+import me.niclan.createintegrated.register.*;
+import me.niclan.createintegrated.register.config.ModConfigs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.data.loading.DatagenModLoader;
 import net.minecraftforge.eventbus.api.IEventBus;
