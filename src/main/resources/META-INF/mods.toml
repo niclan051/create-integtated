@@ -34,8 +34,7 @@ displayName = "Create Integrated" #mandatory TODO: change this!
 #authors = "You" #optional
 # The description text for the mod (multi line!) (#mandatory) TODO: change this!
 description = '''
-This is a mod.
-'''
+This is a mod.'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 # TODO: change all of the depdendencies.yourmodid to dependencies.(your modid) !
 [[dependencies.createintegrated]] #optional
